@@ -18,7 +18,7 @@ var commentRoutes = require("./routes/comments"),
 app.locals.moment = require("moment");
 
 // seedDB();
-mongoose.connect("mongodb://Colt:Rusty@ds149207.mlab.com:49207/yelpcamp");
+mongoose.connect(process.env.DATABASEURL);
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
