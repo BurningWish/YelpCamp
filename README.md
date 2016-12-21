@@ -71,7 +71,7 @@ Each campground has:
 
 ## Auth Pt.2 - Register
 * Configure passportJS
-* Add register routes (POST and GET)
+* Add register routes
 * Add a register ejs template to show the regiter form
 
 ## Auth Pt.3 - Login
