@@ -2,7 +2,7 @@
 A RESTful web application for user to add their favourite camping grounds and or make their comments. 
 It is developed based on NodeJS and ExpressJS.
 The web app is deployed at Heroku and accessible via the following link.
-https://murmuring-spire-28538.herokuapp.com/
+https://aqueous-brook-79627.herokuapp.com/
 
 ## Initial Setup
 * Setup the entry point (app.js)
